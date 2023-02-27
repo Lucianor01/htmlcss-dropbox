@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap');
+
+.button{
+    width: 205px;
+}
+
+.container-singolo{
+    border-bottom: 1px solid black;
+}
