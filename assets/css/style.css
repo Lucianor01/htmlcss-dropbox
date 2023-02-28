@@ -16,3 +16,52 @@ header nav{
     left: 500px;
     width: 50%;
 }
+
+.selector {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 63px;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+li:hover .selector,
+li:hover {
+   display: block;
+}
+
+.container-square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.square-img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.fill-white{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(237deg) brightness(105%) contrast(101%);
+}
+
+.container-square hr{
+    border: 1px solid lightgray;
+}
+
+.container-main-bg-light-blue{
+    padding: 100px 0;
+}
+
+.answer{
+    display: none;
+}
+
+.question:hover .answer{
+    display: block;
+    margin-top: 50px;
+}

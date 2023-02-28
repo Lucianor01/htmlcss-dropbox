@@ -13,29 +13,29 @@
     
     <!-- HEADER -->
     <header class="bg-Light-blue-grey">
-        <nav class="flex justify-content-between padding-10 bg-white fixed">
+        <nav class="flex justify-content-between padding-30 bg-white fixed z-index-999">
             <!-- LEFT-NAV -->
             <div class="flex align-items-center">
-                <img class="margin-right-20 width-100" src="./assets/img/logo-small.png" alt="logo">
+                <img id="menu-logo" class="margin-right-20 width-100" src="./assets/img/logo-small.png" alt="logo">
                 <ul class="flex list-style">
-                    <li class="margin-right-20"><a class="text-decoration c-black c-black" href="#">Perchè Dropbox</a></li>
-                    <li class="margin-right-20"><a class="text-decoration c-black" href="#">Funzioni</a></li>
-                    <li><a class="text-decoration c-black" href="#">Piani e Prezzi</a></li>
+                    <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Perchè Dropbox</a><div class="selector"></div></li>
+                    <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Funzioni</a><div class="selector"></div></li>
+                    <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Piani e Prezzi</a><div class="selector"></div></li>
                 </ul>
             </div>
 
             <!-- RIGHT-NAV -->
             <div class="flex align-items-center">
                <ul class="flex list-style align-items-center ">
-                <li class="margin-right-20 "><a class="text-decoration c-black" href="#">Supporto</a></li>
-                <li class="margin-right-20"><a class="text-decoration c-black" href="#">Contatta l'ufficio vendite</a></li>
-                <li class="margin-right-20"><a class="text-decoration c-black" href="#">Accedi</a></li>
+                <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Supporto</a><div class="selector"></div></li>
+                <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Contatta l'ufficio vendite</a><div class="selector"></div></li>
+                <li class="margin-right-20 relative"><a class="text-decoration c-black" href="#">Accedi</a><div class="selector"></div></li>
                 <li class="button-blue"><a class="c-white text-decoration" href="#">Inizia</a></li>
                </ul> 
             </div>
         </nav>
         <!-- SECTION HEADER -->
-        <section class="margin-top-50">
+        <section class="margin-top-100">
             <div class="width-60-margin-auto">
                 <h1 class="font-size-40">Tutto ciò che ti serve per il
                 lavoro, in un unico posto</h1>
@@ -43,7 +43,7 @@
 
             <div class="width-60-margin-auto flex margin-top-50 relative">
                 <div class="flex container-header-right flex-direction-column align-items-start">
-                    <p class="margin-bottom-20 width-50-pc">Finalmente tutti i tuoi strumenti, contenuti e
+                    <p class="margin-bottom-20 width-80-pc">Finalmente tutti i tuoi strumenti, contenuti e
                     collaboratori sono accessibili dallo stesso posto.
                     Dropbox Business è più di uno spazio di
                     archiviazione sicuro: è un modo intelligente e
@@ -83,13 +83,13 @@
                             <span>/mese</span>
                         </div>
                         <div class="margin-top-50">
-                            <span><i class="fa-solid fa-user margin-right-5"></i>1 utente</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-user margin-right-5"></i>1 utente</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-folder margin-right-5"></i>5 TB di spazio di archiviazione sicuro</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-folder margin-right-5"></i>5 TB di spazio di archiviazione sicuro</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-share-nodes margin-right-5"></i>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-share-nodes margin-right-5"></i>Funzioni di produttività premium e condivisione file semplice e sicura</span>
                         </div>
                         <div class="margin-top-50">
                             <a class="button-blue c-white text-decoration display-block text-center" href="#">Prova gratis per 30 giorni</a>
@@ -122,13 +122,13 @@
                             <span class="margin-top-10">/utente/mese</span>
                         </div>
                         <div class="margin-top-50">
-                            <i class="fa-solid fa-users margin-right-5"></i>3 o piu' utenti
+                            <span class="text-indent-17"><i class="fa-solid fa-users margin-right-5"></i>3 o piu' utenti</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-folder margin-right-5"></i>Tutto lo spazio di cui ha bisogno il tuo team
+                            <span class="text-indent-17"><i class="fa-solid fa-folder margin-right-5"></i>Tutto lo spazio di cui ha bisogno il tuo team</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-share-nodes margin-right-5"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-share-nodes margin-right-5"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
                         </div>
                         <div class="margin-top-50">
                             <a class="button-blue c-white text-decoration display-block text-center" href="#">Prova gratis per 30 giorni</a>
@@ -169,13 +169,13 @@
                             <span>-</span>
                         </div>
                         <div class="margin-top-50">
-                            <i class="fa-solid fa-users margin-right-5"></i>3 o piu' utenti
+                            <span class="text-indent-17"><i class="fa-solid fa-users margin-right-5"></i>3 o piu' utenti</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-folder margin-right-5"></i>Soluzioni personalizzabili per la tua azienda</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-folder margin-right-5"></i>Soluzioni personalizzabili per la tua azienda</span>
                         </div>
                         <div class="margin-top-20">
-                            <span><i class="fa-solid fa-share-nodes margin-right-5"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                            <span class="text-indent-17"><i class="fa-solid fa-share-nodes margin-right-5"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
                         </div>
                         <div class="margin-top-50">
                             <a class="button-blue c-white text-decoration display-block text-center" href="#">Contattaci</a>
@@ -228,12 +228,147 @@
                 </div>
             </div>
         </section>
-
+        <!-- SECTION 2 -->
+        <section class="width-50-margin-auto margin-top-80">
+            <div>
+                <h2 class="font-size-30">Esegui piu' operazioni con Dropbox Business</h2>
+            </div>
+            <div class="flex flex-wrap justify-content-between">
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-switching-tools.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-send-files-it.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-coordinate-it.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-integrations-it.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-multi-device.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+                <div class="flex-basis-30">
+                    <img class="width-100-pc margin-top-50" src="./assets/img/business-feature-security.png" alt="Image-1">
+                    <h3>Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top-20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                    </p>
+                </div>
+            </div>
+            <div class="margin-top-100">
+                <h2 class="font-size-30 width-45-pc">Più di 500.000 team utilizzano Dropbox Business</h2>
+                <div class="margin-top-50">
+                    <a class="c-blue" href="#">Scopri di più sui nostri clienti</a>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 3 -->
+        <section class="margin-top-100">
+            <!-- CONTAINER MAIN -->
+            <div class="flex relative">
+                <!-- CONTAINER LEFT -->
+                <div class="flex flex-wrap relative container-square">
+                    <div class="flex-basis-50 bg-light-green relative">
+                        <img class="square-img absolute fill-white" src="./assets/img/designit.svg" alt="Designit">
+                    </div>
+                    <div class="flex-basis-50 bg-black-rose relative">
+                        <img class="square-img absolute" src="./assets/img/arizona_state_university.svg" alt="Arizona">
+                    </div>
+                    <div class="flex-basis-50 bg-rich-electric-blue relative">
+                        <img class="square-img absolute fill-white" src="./assets/img/university_of_florida.svg" alt="Florida">
+                    </div>
+                    <div class="flex-basis-50 bg-ruby-red relative">
+                        <img class="square-img absolute" src="./assets/img/topps.svg" alt="Topps">
+                    </div>
+                </div>
+                <!-- CONTAINER CENTER -->
+                <div class="container-square bg-white-smoke padding-30">
+                    <img class="margin-top-25 width-60-pc" src="./assets/img/designit.svg" alt="Designit">
+                    <hr class="hr-10-pc margin-top-25">
+                    <p class="margin-top-25 font-size-20">“I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper”.</p>
+                    <div class="margin-top-25">
+                        <span class="font-size-20">Morten Thomsen, Global IT Lead</span>
+                    </div>
+                </div>
+                <!-- CONTAINER RIGHT -->
+                <div class="flex flex-wrap relative container-square">
+                    <div class="flex-basis-50 bg-cherry-red relative">
+                        <img class="square-img absolute fill-white" src="./assets/img/world_bicycle_relief.svg" alt="Designit">
+                    </div>
+                    <div class="flex-basis-50 bg-Light-blue-grey relative">
+                        <img class="square-img absolute" src="./assets/img/hearst_corp.svg" alt="Arizona">
+                    </div>
+                    <div class="flex-basis-50 bg-lapis-blue relative">
+                        <img class="square-img absolute" src="./assets/img/lonely_planet.svg" alt="Florida">
+                    </div>
+                    <div class="flex-basis-50 bg-sun-yellow relative">
+                        <img class="square-img absolute" src="./assets/img/clear_channel.svg" alt="Topps">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-Light-blue-grey container-main-bg-light-blue">
+                <div class="width-50-margin-auto flex justify-content-between">
+                    <div class="font-size-20 width-50-pc c-black-rose">
+                        <h2>Porta Dropbox Business nella tua azienda</h2>
+                    </div>
+                    <div>
+                        <a class="button-white text-decoration c-black" href="#">Inizia la tua prova gratuita</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 4 -->
+        <section>
+            <div class="width-50-margin-auto margin-top-80">
+                <h2>Domande frequenti</h2>
+                <hr class="margin-top-30">
+                <div class="question flex justify-content-between align-items-end">
+                    <h5 class="margin-top-25">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                    <i class="fa-solid fa-angle-down margin-right-20"></i>
+                </div>
+                <div class="answer">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, autem deleniti. Ab fugit nostrum id aspernatur</p>
+                </div>
+                <hr class="margin-top-25">
+                <div class="flex justify-content-between align-items-end">
+                    <h5 class="margin-top-25">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                    <i class="fa-solid fa-angle-down margin-right-20"></i>
+                </div>
+                <hr class="margin-top-25">
+                <div class="flex justify-content-between align-items-end">
+                    <h5 class="margin-top-25">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                    <i class="fa-solid fa-angle-down margin-right-20"></i>
+                </div>
+                <hr class="margin-top-25">
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="bg-black margin-top-80">
+        <section class="width-60-margin-auto c-white">
+            <div class="">
+                <h3>Dropbox</h3>
 
+                <span>Applicazione desktop</span>
+            </div>
+        </section>
     </footer>
 
 </body>
