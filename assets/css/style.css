@@ -22,7 +22,7 @@ header nav{
     height: 3px;
     background-color: black;
     position: absolute;
-    top: 63px;
+    top: 55px;
     bottom: 0;
     left: 0;
     display: none;
@@ -38,11 +38,21 @@ li:hover {
     height: calc(100vw / 3);
 }
 
+.square {
+    width: 50%;
+    height: 50%;
+    transition: border 0.5s;
+}
+
 .square-img{
     width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+}
+
+.square:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .fill-white{
@@ -64,4 +74,8 @@ li:hover {
 .question:hover .answer{
     display: block;
     margin-top: 50px;
+}
+
+footer hr{
+    border: 1px solid gray;
 }
