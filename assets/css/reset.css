@@ -83,6 +83,10 @@
     z-index: 999;
 }
 
+.overflow-auto{
+    overflow: auto;
+}
+
 .fixed{
     position: fixed;
 }
@@ -375,3 +379,4 @@
 .text-indent-17{
     text-indent: -17px;
 }
+
